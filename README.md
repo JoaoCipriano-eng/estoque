@@ -1,19 +1,7 @@
-estoque = [
-    {"nome": "mause", "quantidade": 10, "valor": 50.00,},
-    {"nome": "monitor", "quantidade": 5, "valor": 250.00,},
-    {"nome": "teclado", "quantidade": 12, "valor": 75.00,}]
+# Projeto de estoque de dados 
 
-while True:
-    print("===== MENU DO SISTEMA DE ESTOQUE =====")
-    print("0 - Registro do produto")
-    print("1 - entrar no Estoque ")
-    print("2 - Registrar Entrada de produto")
-    print("3 - Registrar Saída de produto")
-    print("4 - Sair do Sistema")
-    opcao = input("Digite a opção desejada: ")
-    print("====== FIM DO SISTEMA ======")
 
-    #registro de novos produtos
+    registro de novos produtos
     if opcao == "0":
         print("==== Registro do produto =====")
         registro = input("Digite o nome do produto: ")
